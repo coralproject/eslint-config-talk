@@ -1,0 +1,16 @@
+{
+  "name": "@coralproject/eslint-config-talk",
+  "version": "0.0.1",
+  "description": "Provides eslint config for plugin development",
+  "main": "index.js",
+  "author": "The Coral Project Team <coral@mozillafoundation.org>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-promise": "^3.3.1",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4"
+  }
+}
