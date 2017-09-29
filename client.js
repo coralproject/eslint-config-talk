@@ -4,7 +4,10 @@ module.exports = {
     "es6": true,
     "mocha": true
   },
-  "extends": "./server.js",
+  "extends": [
+    "./server.js",
+    "plugin:react/recommended"
+  ],
   "parserOptions": {
     "sourceType": "module",
     "ecmaFeatures": {
