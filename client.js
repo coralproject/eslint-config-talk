@@ -2,11 +2,13 @@ module.exports = {
   "env": {
     "browser": true,
     "es6": true,
-    "mocha": true
+    "mocha": true,
+    "jest": true
   },
   "extends": [
     "./server.js",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:jest/recommended"
   ],
   "parserOptions": {
     "sourceType": "module",
@@ -17,6 +19,7 @@ module.exports = {
   },
   "parser": "babel-eslint",
   "plugins": [
+    "jest",
     "react"
   ],
   "rules": {
