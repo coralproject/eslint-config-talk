@@ -18,6 +18,7 @@ module.exports = {
     'promise/no-nesting': 'warn',
     'promise/no-promise-in-callback': 'warn',
     'promise/no-callback-in-promise': 'warn',
+    'no-const-assign': 'error',
     'no-undef': 'error',
     'no-unused-vars': [
       'error',

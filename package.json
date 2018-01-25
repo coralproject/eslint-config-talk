@@ -1,6 +1,6 @@
 {
   "name": "@coralproject/eslint-config-talk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provides eslint config for plugin development",
   "main": "index.js",
   "author": "The Coral Project Team <coral@mozillafoundation.org>",
